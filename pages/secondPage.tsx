@@ -1,6 +1,6 @@
 import Layout from "../components/layout";
 
-export default () => (
+const SecondPage = () => (
   <Layout>
     <section className="section">
       <div className="container">
@@ -9,3 +9,4 @@ export default () => (
     </section>
   </Layout>
 );
+export default SecondPage;

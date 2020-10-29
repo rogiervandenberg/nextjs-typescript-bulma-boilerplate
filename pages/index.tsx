@@ -1,7 +1,7 @@
 import Layout from "../components/layout";
 import Counter from "../components/counter";
 
-export default () => (
+const Index = () => (
   <Layout home>
     <section className="section">
       <div className="container">
@@ -19,3 +19,5 @@ export default () => (
     </section>
   </Layout>
 );
+
+export default Index;
